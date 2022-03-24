@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3   CMakeFiles/cpp_game.dir/main.cpp.o  -o cpp_game   -L/opt/homebrew/lib  -Wl,-rpath,/opt/homebrew/lib -lsfml-graphics -lsfml-audio -lsfml-network -lsfml-system -lsfml-window 

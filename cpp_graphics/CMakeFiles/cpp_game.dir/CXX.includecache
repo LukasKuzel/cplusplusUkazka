@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/student/Plocha/cpp/cpp_graphics/main.cpp
+iostream
+-
+SFML/Graphics.hpp
+-
+SFML/Window.hpp
+-
+SFML/System.hpp
+-
+cmath
+-
+vector
+-
+random
+-
+

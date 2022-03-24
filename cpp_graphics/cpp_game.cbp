@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="cpp_game"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/student/Plocha/cpp/cpp_graphics"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/student/Plocha/cpp/cpp_graphics/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/student/Plocha/cpp/cpp_graphics/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/student/Plocha/cpp/cpp_graphics/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/student/Plocha/cpp/cpp_graphics/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/student/Plocha/cpp/cpp_graphics"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/student/Plocha/cpp/cpp_graphics/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/student/Plocha/cpp/cpp_graphics/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/student/Plocha/cpp/cpp_graphics/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/student/Plocha/cpp/cpp_graphics/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/student/Plocha/cpp/cpp_graphics"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/student/Plocha/cpp/cpp_graphics/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/student/Plocha/cpp/cpp_graphics/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/student/Plocha/cpp/cpp_graphics/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/student/Plocha/cpp/cpp_graphics/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cpp_game">
+				<Option output="/home/student/Plocha/cpp/cpp_graphics/cpp_game" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/student/Plocha/cpp/cpp_graphics"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/homebrew/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/student/Plocha/cpp/cpp_graphics/Makefile&quot;  VERBOSE=1 cpp_game"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/student/Plocha/cpp/cpp_graphics/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/student/Plocha/cpp/cpp_graphics/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/student/Plocha/cpp/cpp_graphics/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cpp_game/fast">
+				<Option output="/home/student/Plocha/cpp/cpp_graphics/cpp_game" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/student/Plocha/cpp/cpp_graphics"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/homebrew/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/student/Plocha/cpp/cpp_graphics/Makefile&quot;  VERBOSE=1 cpp_game/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/student/Plocha/cpp/cpp_graphics/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/student/Plocha/cpp/cpp_graphics/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/student/Plocha/cpp/cpp_graphics/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/student/Plocha/cpp/cpp_graphics/main.cpp">
+			<Option target="cpp_game"/>
+		</Unit>
+		<Unit filename="/home/student/Plocha/cpp/cpp_graphics/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
